@@ -1,5 +1,5 @@
-//打印100~200 之间的素数
-#include<stdio.h>                   
+打印100~200 之间的素数
+#include<stdio.h>                  
 #include<stdlib.h>
 int main()
 {
