@@ -1,0 +1,26 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+#include<stdlib.h>
+int fun(int n, int k)
+{
+	int sum;
+	if (k = 0)
+	{
+		sum = 1;
+	}
+	else
+	{
+		sum = n * fun(n, k - 1);
+	}
+	return sum;
+}
+int main()
+{
+	int n, k;
+	scanf("%d %d", &n, &k);
+	int ret = fun(n, k);
+	printf("%d", ret);
+	printf("\n");
+	system("pause");
+	return 0;
+}
