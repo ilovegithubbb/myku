@@ -1,0 +1,20 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+#include<stdlib.h.>
+void print(int n)
+{    
+	int i;
+	for (i = n; i; i /= 10)
+	{
+		printf("%d", i % 10);
+		printf("\n");
+	}
+}
+int main()
+{
+	int n;
+	scanf("%d", &n);
+	print(n);
+	system("pause");
+	return 0;
+}
