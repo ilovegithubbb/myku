@@ -1,0 +1,27 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include<stdlib.h>
+int main()
+{
+	
+                int i= 32;
+	int num, count = 0;
+	scanf("%d", &num);
+	while (i--)
+	{
+	       if((num & 1)==1)
+
+  	       {
+	
+                               count++;
+	
+                       }
+	       num = num >> 1;
+	}
+	printf("count=%d", count);
+	
+                system("pause");
+
+	return 0;
+
+}
